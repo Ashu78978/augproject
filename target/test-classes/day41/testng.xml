@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="mysuite">
+			
+			<listeners>
+					<listener class-name="day41.MyListener"/>
+			</listeners>
+		
+			<test name="mytests" >
+				<classes>
+						<class name="day41.MyTest"/>
+											
+				</classes>
+			</test>
+	
+</suite>

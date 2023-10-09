@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  
+    <classes>
+	      <class name="day40.LoginTests">
+			  <methods>
+				  <include name="loginByfacebook" />
+			  </methods>
+	       </class>
+	      
+	      <class name="day40.PaymentTests">
+			   <methods>
+				  <include name="paymentindollar" />
+			  </methods>
+			</class>
+	      
+	      <class name="day40.SignUpTests"/>
+    </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->
